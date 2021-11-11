@@ -52,13 +52,17 @@ nav ul li:hover {
 }
 
 .toggler {
-    display: none;
+    position: absolute;
     right: 5%;
+    top: 5%;
+    display: none;
+    font-size: 30px;
 }
 
 ul.active {
     display: flex !important;
     flex-direction: column;
+    margin-right: 80px;
 }
 
 ul.active li {
